@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="332dp"
+        android:layout_below="@+id/text_register"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="262dp"
+        app:srcCompat="@drawable/round_corners" />
+
+    <TextView
+        android:id="@+id/text_register"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Register Here"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/register_email"
+        android:layout_width="350dp"
+        android:layout_height="41dp"
+        android:layout_below="@+id/text_register"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round_btn"
+        android:hint="Email"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <EditText
+        android:id="@+id/register_password"
+        android:layout_width="350dp"
+        android:layout_height="41dp"
+        android:layout_below="@+id/register_email"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round_btn"
+        android:hint="Password"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_password"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="99dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="20dp"
+        android:text="Register" />
+
+    <TextView
+        android:id="@+id/text_login"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_below="@+id/register"
+        android:layout_marginBottom="20dp"
+        android:text="Existing User Login"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
